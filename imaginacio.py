@@ -1,3 +1,4 @@
+import numpy as np
 from PIL import Image
 from scipy.io import wavfile
 
@@ -58,6 +59,6 @@ def sonido_a_imagen(ruta_audio, ruta_imagen, ancho=100, alto=60):
 # 6. EJECUCIÓN DEL PROGRAMA
 # Usamos el audio que generaste antes para ver cómo se reconstruye
 sonido_a_imagen(
-    "/home/rudul/practicas_python/resultado_sonoro.wav", 
-    "/home/rudul/practicas_python/noche_reconstruida.jpg"
+    "/home/rudul/practicas_python/resultado_sonoro2.wav", 
+    "/home/rudul/practicas_python/nebulosa_reconstruida2.jpg"
 )
